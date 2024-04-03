@@ -1,0 +1,56 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+} */
+
+ /*.parent{
+    background-color: aquamarine;
+    padding: px 20px 10px;
+     margin: 20px; 
+    width: 250px;
+}    */
+
+/* .heading{
+    background-color: yellowgreen;
+    padding: 30px;
+    width: fit-content;
+} */
+
+/* .heading p{
+    background-color: brown;
+} */
+/* .heading {
+    p{
+        background-color: brown;
+    }
+    /* span{
+        background-color: blueviolet;
+        padding: 50px;
+    } */
+  /*  
+} */
+
+/* .parent{
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+
+} */
+
+/* img{
+    display: block;
+
+} */
+/* #p1{
+    background-color: bisque;
+} */
+.p2{
+    background-color: blueviolet !important;
+    background-color: black ;
+    
+}
+.p3{
+    background-color: brown ;
+}
