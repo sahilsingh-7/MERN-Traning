@@ -1,0 +1,59 @@
+/* .parent{
+    display: grid; */
+
+    /* grid-template-columns: 50px 50px 50px; */
+    /* grid-template-columns: repeat(3, 50px); */
+
+    /* grid-template-columns: 1fr 1fr 1fr;/*this is used to make grid flexible too
+    grid-template-rows: 50px 75px 50px;
+    background-color: bisque;
+    column-gap: 10px;
+    row-gap: 10px;
+} */
+
+/* .child{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: aquamarine;
+}
+
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: ;
+    background-color: aquamarine;
+}
+
+.right{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: aquamarine;
+} */
+/* .footer{
+    grid-column-start: ;
+    grid-column-end: 4;
+    backgrouSnd-color: aquamarine;
+} */
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+}
+
+.child{
+    background-color: aquamarine;
+    border: 1px solid red;
+    display: flex;
+    min-height: 50px;
+    max-height: 100px;
+    justify-content: center;
+    align-items: center;
+}
